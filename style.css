@@ -1,0 +1,83 @@
+.buton {
+    color: rgb(255, 255, 255);
+    width: 260px;
+    height: 60px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: #eb5252d3;
+}
+
+.nawigacja {
+    background-color: #eb5252d3;
+    height: 60px;
+    font-family: Langar;
+}
+
+.img2 {
+    background-image: url(./img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-top: 10px;
+}
+
+.ramka1 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.tekst1 {
+    margin-top: 180px;
+    margin-left: 80px;
+    padding-right: 60px;
+    font-size: 20px;
+}
+
+.img3 {
+    margin-top: 30px;
+    margin-right: 50px;
+    height: 430px;
+}
+
+.ramka2 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.img4 {
+    width: 500px;
+    height: 560px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.galeria1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.tekst3 {
+    margin-top: 160px;
+    margin-left: 80px;
+    padding-right: 60px;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+
+.tekst4 {
+    margin-top: 200px;
+    margin-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
